@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "themysticgeek/larp-org-roles-national",
+    "description": "Setting up roles above local/game: Example - Regional / National / Genre",
     "keywords": [
-        ":vendor_name",
+        "themysticgeek",
         "laravel",
-        "package_slug"
+        "larp-org-roles-national"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/themysticgeek/larp-org-roles-national",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Jessica Karels (The Mystic Geek)",
+            "email": "jess@themysticgeek.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Themysticgeek\\LarpOrgRolesNational\\": "src",
+            "Themysticgeek\\LarpOrgRolesNational\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Themysticgeek\\LarpOrgRolesNational\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Themysticgeek\\LarpOrgRolesNational\\LarpOrgRolesNationalServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LarpOrgRolesNational": "Themysticgeek\\LarpOrgRolesNational\\LarpOrgRolesNationalFacade"
             }
         }
     },
